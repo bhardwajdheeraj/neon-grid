@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#090e1c"/>
+  <path d="M24 10v44M40 10v44M10 24h44M10 40h44" stroke="#293a59" stroke-width="3" stroke-linecap="round"/>
+  <!-- Neon X -->
+  <path d="M14 14l6 6M20 14l-6 6" stroke="#4be2d5" stroke-width="3" stroke-linecap="round" filter="drop-shadow(0 0 4px #4be2d5)"/>
+  <!-- Neon O -->
+  <circle cx="47" cy="47" r="4.5" fill="none" stroke="#b69bff" stroke-width="3" filter="drop-shadow(0 0 4px #b69bff)"/>
+  <!-- Neon center X -->
+  <path d="M28 28l8 8M36 28l-8 8" stroke="#4be2d5" stroke-width="3.5" stroke-linecap="round" filter="drop-shadow(0 0 6px #4be2d5)"/>
+</svg>
