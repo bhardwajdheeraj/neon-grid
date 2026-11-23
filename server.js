@@ -158,7 +158,9 @@ const PORT = process.env.PORT || 3000;
 
 if (require.main === module) {
   server.listen(PORT, '0.0.0.0', () => {
-    console.log(`Neon Grid game server running on http://0.0.0.0:${PORT}`);
+    console.log(`Neon Grid game server running at:`);
+    console.log(`- Local:   http://localhost:${PORT}`);
+    console.log(`- Network: http://0.0.0.0:${PORT}`);
   });
 }
 
